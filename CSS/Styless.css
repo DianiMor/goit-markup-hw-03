@@ -14,7 +14,7 @@ ul {
     margin-top: 24px;
     margin-bottom: 25px;
     padding-left: 215px;
-    gap: 93px;
+   
 }
 
 .container-header2{
@@ -117,9 +117,18 @@ ul {
 .titulovalores {
 font-size: 14px;
 font-weight: 700;
-line-height: 16px;
+line-height: 16.41px;
 letter-spacing: 0.03em;
 text-align: left;
+}
+
+.parrafovalores{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
 }
 
 .txtnosadent{
@@ -148,8 +157,12 @@ color: #757575
     justify-content: center;
     align-items: flex-start;
     gap: 40px;
+    padding: 30px;
     width: 1170px;
     height: 122px;
+}
+.container-valores li{
+width: 270px;
 }
 
 .botonsoluciones {
