@@ -21,6 +21,11 @@ ul {
     padding-bottom: 30px;
 }
 
+.contenedor{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .container-nav{
     display: flex;
     gap: 30px;
@@ -144,7 +149,9 @@ color: #757575
     align-items: flex-start;
     gap: 40px;
     padding: 30px;
+    padding-top: 94px;
 }
+
 .container-valores li{
 width: 270px;
 }
@@ -168,6 +175,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .txtaquenos-container-dedicamos-hijo1{
@@ -244,6 +253,7 @@ top: 1696px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
@@ -352,6 +362,8 @@ color: #757575;
    justify-content: center;
    align-items: center;
    flex-direction: column;
+   padding-top: 94px;
+   padding-bottom: 94px;
 }
 
 
@@ -384,11 +396,10 @@ color: #757575;
     margin-left: 115px;
     margin-right: 210px;
     gap: 20px;
-    padding-bottom: 82px;
+    padding-top: 56px;
 }
 
 .img-servicios-portafolio li{
-    width: 370px;
     height: 404px;
     border: #EEEEEE 1px solid;
 }
