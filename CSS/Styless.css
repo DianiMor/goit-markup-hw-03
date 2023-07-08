@@ -127,10 +127,6 @@ text-align: left;
 }
 
 .txtnosadent{
-width: 270px;
-height: 75px;
-left: 215px;
-top: 801px;
 
 font-style: normal;
 font-weight: 400;
@@ -175,8 +171,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
+
 }
 
 .txtaquenos-container-dedicamos-hijo1{
@@ -185,6 +180,8 @@ button:hover {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    padding-top: 94px;
+    padding-bottom: 55px;
 }
 
 .container-dedicamos-hijo2{
@@ -199,10 +196,6 @@ button:hover {
 }
 
 .txtaquenos {
-width: 371.15px;
-height: 46.24px;
-left: 619.43px;
-top: 991px;
 
 font-style: normal;
 font-weight: 700;
@@ -212,18 +205,10 @@ text-align: center;
 }
 
 .imgprimero {
-width: 373.16px;
-height: 323.7px;
-left: 215px;
-top: 1092.3px;
 position: center;
 }
 
 .txtnuestroequipo {
-width: 263px;
-height: 42px;
-left: 669px;
-top: 1604px;
 
 font-style: normal;
 font-weight: 700;
@@ -236,7 +221,11 @@ text-align: center;
 .container-dedicamos{
     display: flex;
     padding: 0px;
-    gap: 30px;
+}
+
+.txt-nuestroequipo{
+    padding-top: 94px;
+    padding-bottom: 50px;
 }
 
 .imgprofesores {
@@ -253,13 +242,14 @@ top: 1696px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 94px;
     padding-bottom: 94px;
 }
 
 .container-txtprofes{
     padding-bottom: 10px;
     text-align: center;
+    padding-bottom: 50px;
+ 
 }
 
 .container-profes-hijo2{
@@ -277,9 +267,6 @@ top: 1696px;
 }
 
 .nombreprofesor {
-height: 19px;
-left: 295px;
-top: 1986px;
 
 font-style: normal;
 font-weight: 500;
@@ -329,6 +316,12 @@ text-decoration: none;
 padding: 40px;
 }
 
+.botonsuperior{
+    padding: 12px 16px;
+    border: none;
+    border-radius: 4px;    
+}
+
 .botonsuperior:hover {
 background-color: #2196F3;
 }
@@ -352,10 +345,11 @@ color: #757575;
     flex-shrink: 0;
     justify-content: center;
 }
+
+
 .enlaces-servicios-portafolio button{
     background-color: #F5F4FA;
     font-weight: 500;
-    height: 38px;
     padding: 8px;
     gap: 8px;
     border: none;
@@ -393,9 +387,13 @@ color: #757575;
     padding-bottom: 18px;
 }
 
-.textotarjetas h3{
+.textotarjetas-h3{
     display: flex;
 width: 322px;
 flex-direction: column;
 flex-shrink: 0;
+}
+
+.img-servicios-portafolio {
+    padding: 0;
 }
